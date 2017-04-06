@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-color: #ccc;
+    }
+    
+    .waterfall {
+        position: relative;
+        width: 730px;
+        margin: 0 auto;
+    }
+    
+    .waterfall .grid {
+        position: absolute;
+        width: 230px;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    
+    .waterfall .share {
+        padding: 10px;
+        line-height: 150%;
+        font-size: 14px;
+    }
+    
+    .waterfall .share p {
+        font-size: 16px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="waterfall" id="waterfall">
+    </div>
+    <script type="text/template" id="template">
+        <div class="grid">
+            <a href="#"><img src="<%=url%>" alt=""></a>
+            <div class="share">
+                <p>
+                    <%=subject%>
+                </p>
+                <a href="" class="like">❤<%=like%></a>
+                <a href="" class="ping">☺<%=comment%></a>
+            </div>
+        </div>
+    </script>
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+    <script src="//cdn.bootcss.com/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript">
+    var $waterfall = $("#waterfall");
+    // 模板字符串
+    var templateString = $("#template").html();
+    // 数据绑定函数
+    var compileFunction = _.template(templateString);
+
+    // 三列瀑布流  每列的总高度
+    var colHeight = [0, 0, 0];
+    var page=1;
+    getJSONandRender(page);
+    function getJSONandRender(page) {
+        $.ajax({
+            "dataType": "jsonp",
+            "jsonpCallback": "jsonp33",
+            "url": "http://yx.xianjian.com/p/api.php?method=wf&api_key=nimakdkeiLdkfen2lidkdlDLLEKd&page="+page+"&per_page=10&tag=&type=5&order=2&_ksTS=1491463982115_32&jsoncallback=jsonp33",
+            "success": function(data) {
+                var photoArray = data.photos.photo;
+                if(photoArray.length==0){
+                	return;
+                }
+                lock=true;
+                _.each(photoArray, function(dictionary) {
+                    // 竞速 谁先加载好 谁先上DOM
+                    var image = new Image();
+                    if (dictionary.type == 1) {
+                        image.src = "http://files.haohaowan.com/yxxj/li_" + dictionary.url;
+                    } else if (dictionary.type == 3) {
+                        image.src = "http://files.haohaowan.com/yxxj/sp_" + dictionary.url + ".jpg";
+                    }
+                    // 模板修正
+                    dictionary.url = image.src;
+                    $(image).load(function() {
+                        // 这张图片加载成功
+                        var domString = compileFunction(dictionary);
+                        $grid = $(domString);
+                        $waterfall.append($grid);
+
+                        // 根据瀑布流算法设置它的left  top
+                        minValue = _.min(colHeight);
+                        minIndex = _.indexOf(colHeight, minValue);
+                        $grid.css({
+                            "top": minValue,
+                            "left": minIndex * 250
+                        });
+                        colHeight[minIndex] += $grid.outerHeight() + 20;
+                        $waterfall.css("height", _.max(colHeight));
+                        // $loading.hide();
+                    });
+                });
+            }
+        });
+    }
+    
+    var lock=true;
+    $(window).scroll(function(){
+    	if(!lock) return;
+    	var rate=$(window).scrollTop()/($(document).height()-$(window).height());
+    	if(rate>=0.7){
+    		page++;
+    		getJSONandRender(page);
+    		lock=false;
+    	}
+    });
+    </script>
+</body>
+
+</html>
