@@ -1,0 +1,336 @@
+{
+    "moduleName": "cnxh",
+    "version": "1",
+    "config": {
+        "hideWelfare": "false",
+        "showOverlay": "true",
+        "categoryType": "standard"
+    },
+    "query": {
+        "startNum": "1"
+    },
+    "lat": "0",
+    "lng": "0",
+    "moduleData": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+            "startNum": 1,
+            "overSea": false,
+            "totalNum": 99,
+            "searchQueryId": "d90a48b0-b58a-4bf0-a139-4f622becd8fc",
+            "guessYouVoList": [{
+                "shopName": "鲍师傅",
+                "dealgroupid": "25044485",
+                "dealGroupTitle": "牛肉松小贝蛋糕1个",
+                "dealgroupPrice": "2.5",
+                "marketPrice": "6",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/39a5dc4da004c5a0270ff6639b172f441546553.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "100",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售100",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/25044485",
+                "discountList": []
+            }, {
+                "shopName": "吉野家",
+                "dealgroupid": "23077556",
+                "dealGroupTitle": "[148店通用] 小碗红烧丸子饭+乌龙茶（小）1份",
+                "dealgroupPrice": "10",
+                "marketPrice": "17.5",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/9f08782cbb1858da80640efe0382c58d28453.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "19271",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售19271",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23077556",
+                "discountList": []
+            }, {
+                "shopName": "硬货海鲜饭",
+                "dealgroupid": "23958339",
+                "dealGroupTitle": "[3店通用] 经典双人餐，提供免费WiFi",
+                "dealgroupPrice": "198",
+                "marketPrice": "272.4",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/98c1e915e911b72857983b5042878cf1102946.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "1998",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "新客减12",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售1998",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23958339",
+                "discountList": [],
+                "discountTag": "新客减12"
+            }, {
+                "shopName": "栗记仙豆糕",
+                "dealgroupid": "22376572",
+                "dealGroupTitle": "[西单] 仙豆糕1盒，提供免费WiFi",
+                "dealgroupPrice": "12.8",
+                "marketPrice": "14.8",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/2863266c3a23d2c4904ec84273bc971a63744.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "1113",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售1113",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/22376572",
+                "discountList": []
+            }, {
+                "shopName": "汉巴味德自助餐厅",
+                "dealgroupid": "21502997",
+                "dealGroupTitle": "[六里桥/丽泽桥] 单人工作日午餐",
+                "dealgroupPrice": "79",
+                "marketPrice": "89",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/e5bc1b5be432d585a602a89c59dd3bb4451268.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "23096",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售23096",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/21502997",
+                "discountList": []
+            }, {
+                "shopName": "德川家日本料理",
+                "dealgroupid": "24429951",
+                "dealGroupTitle": "[8店通用] 午餐自助餐",
+                "dealgroupPrice": "196",
+                "marketPrice": "198",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/9e650bd7c3f1b717460a18be231a40d7190377.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "1804",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售1804",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/24429951",
+                "discountList": []
+            }, {
+                "shopName": "万龙洲海鲜大酒楼",
+                "dealgroupid": "12099506",
+                "dealGroupTitle": "[8店通用] 2人轻松自由拼，有赠品",
+                "dealgroupPrice": "198",
+                "marketPrice": "642",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/6221f21f1f45b4dcdb53a526cf56805781717.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "11836",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.96",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售11836",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/12099506",
+                "discountList": []
+            }, {
+                "shopName": "Queen&Dolls 西单店(原华威佳佳电玩)",
+                "dealgroupid": "23646959",
+                "dealGroupTitle": "[西单] 游戏币55个",
+                "dealgroupPrice": "50",
+                "marketPrice": "55",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/dpdeal/b8a47667b36463940d3e08d13bd0d785116860.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "1617",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售1617",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23646959",
+                "discountList": []
+            }, {
+                "shopName": "鳗鳗的爱",
+                "dealgroupid": "24273936",
+                "dealGroupTitle": "[2店通用] 情意绵绵双人套餐",
+                "dealgroupPrice": "168",
+                "marketPrice": "218",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/62fa09dc23e4ac0dbaebc9d52037b0bb636682.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "6416",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售6416",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/24273936",
+                "discountList": []
+            }, {
+                "shopName": "旺顺阁鱼头泡饼",
+                "dealgroupid": "24988687",
+                "dealGroupTitle": "[6店通用] 1斤鱼头券3选1",
+                "dealgroupPrice": "29.9",
+                "marketPrice": "109",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/276303f94d5ee2cdc1e9ae55ce75caa926321.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": null,
+                "tgcurrentjoin": "1490",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                    "tag": "免预约",
+                    "color": "#e5bf86"
+                },
+                "itemtag": {
+                    "tag": "",
+                    "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售1490",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/24988687",
+                "discountList": []
+            }]
+        }
+    }
+}
